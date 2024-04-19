@@ -1,0 +1,21 @@
+const testing = false;
+let args;
+
+if ( testing ) args = process.argv;
+else args = q.split(" ");
+
+const valid_categories = [
+    "solo",
+	"coop",
+	"3p",
+	"4p"
+];
+
+const valid_maps = [
+    "Thunder", "DG2", "Wavegun", "Babygun", "VR11"
+];
+
+/*  
+    Key: solo | coop | 3p | 4p
+    " + " | " + "
+*/
